@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import logo from './../../logo.svg'
 
-function Header(props) {
+function AppHeader(props) {
 
     const [count, setCount] = useState(1);
 
@@ -21,4 +21,4 @@ function Header(props) {
     )
 }
 
-export default Header
+export default AppHeader

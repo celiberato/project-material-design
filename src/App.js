@@ -1,7 +1,7 @@
 import React from 'react';
 import { Box, Container, ThemeProvider }  from '@mui/system' 
 import { themeOne, themeTwo } from './theme'
-import Client from './components/Pages/Client';
+import AppClient from './components/Pages/AppClient';
 
 function App() {
   return (
@@ -81,7 +81,7 @@ function App() {
       </Container>
 
       <Container sx= {{width: '800px', marginTop: 10}}>
-        <Client></Client>
+        <AppClient></AppClient>
       </Container>
 
 

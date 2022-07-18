@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 import './style.css'
 
-function IMC () {
+function AppIMC () {
 
     const [weight, setWeight] = useState()
     const [height, setHeight] = useState()
@@ -38,4 +38,4 @@ function IMC () {
 
 }
 
-export default IMC
+export default AppIMC

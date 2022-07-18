@@ -1,8 +1,8 @@
-import React,  { ReactDOM } from 'react'
-import './style.css'
+import React from 'react'
 import Switch from '@mui/material/Switch';
+import './style.css'
 
-export default class Form extends React.Component {
+export default class AppForm extends React.Component {
 
     constructor (props) {
 
